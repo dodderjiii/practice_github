@@ -18,6 +18,10 @@ public:
         getline(cin, location);
     }
 
+    void displayplazaname()
+    {
+        cout<<"Plaza Name: "<<plazaName<<endl;
+    }
     void displayPlazaDetails() {
         cout << "Plaza Name: " << plazaName << endl;
         cout << "Location: " << location << endl;
